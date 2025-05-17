@@ -61,7 +61,7 @@ export default function LandingPage() {
             </div>
             <div className="relative mt-16 w-full max-w-4xl overflow-hidden rounded-xl border shadow-xl">
               <Image
-                src="/placeholder.svg?height=720&width=1280"
+                src="/Travel.jpg"
                 width={1280}
                 height={720}
                 alt="MystLink App Interface"
@@ -176,20 +176,20 @@ export default function LandingPage() {
             </div>
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
               {[
-                { name: "Borja Martínez", role: "CEO", image: "/placeholder.svg?height=300&width=300" },
-                { name: "Bianca Calero", role: "COO", image: "/placeholder.svg?height=300&width=300" },
-                { name: "Diego Sainz-Pardo", role: "CTO", image: "/placeholder.svg?height=300&width=300" },
+                { name: "Borja Martínez", role: "CEO", image: "/Man.svg?height=300&width=300" },
+                { name: "Bianca Calero", role: "COO", image: "/Woman.svg?height=300&width=300" },
+                { name: "Diego Sainz-Pardo", role: "CTO", image: "/Man.svg?height=300&width=300" },
                 {
                   name: "Danna Carrillo",
                   role: "Customer Support Director",
-                  image: "/placeholder.svg?height=300&width=300",
+                  image: "/Woman.svg?height=300&width=300",
                 },
                 {
                   name: "Hatim el Idrissi",
                   role: "Marketing Director",
-                  image: "/placeholder.svg?height=300&width=300",
+                  image: "/Man.svg?height=300&width=300",
                 },
-                { name: "Pablo Pérez", role: "Finance Manager", image: "/placeholder.svg?height=300&width=300" },
+                { name: "Pablo Pérez", role: "Finance Manager", image: "/Man.svg?height=300&width=300" },
               ].map((member, index) => (
                 <div key={index} className="flex flex-col items-center text-center">
                   <div className="relative h-32 w-32 overflow-hidden rounded-full">
